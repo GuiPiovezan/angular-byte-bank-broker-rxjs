@@ -1,8 +1,6 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { FormControl } from '@angular/forms';
-import { Acoes } from './modelo/acoes';
 import { AcoesService } from './acoes.service';
-import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-acoes',
